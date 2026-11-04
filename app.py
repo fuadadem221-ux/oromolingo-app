@@ -1,14 +1,13 @@
-```python
-"""
-=============================================================================
-         🦉 OROMOLINGO WEB — ONLINE AFAAN OROMOO LEARNING PLATFORM 🦉
-=============================================================================
-Features:
- - Web Interface accessible worldwide via URL (Mobile & Desktop friendly)
- - Authentication: Google, Facebook, and Email/Guest Sign-In
- - Duolingo-style UI with Gamification (XP, Hearts, Streaks, Levels)
- - 12 Interactive Units, Quizzes, Flashcards, and Global Leaderboard
-=============================================================================
+
+#=============================================================================
+      #   🦉 OROMOLINGO WEB — ONLINE AFAAN OROMOO LEARNING PLATFORM 🦉
+#=============================================================================
+#Features:
+# - Web Interface accessible worldwide via URL (Mobile & Desktop friendly)
+# - Authentication: Google, Facebook, and Email/Guest Sign-In
+# - Duolingo-style UI with Gamification (XP, Hearts, Streaks, Levels)
+# - 12 Interactive Units, Quizzes, Flashcards, and Global Leaderboard
+#=============================================================================
 """
 
 import streamlit as st
@@ -396,5 +395,4 @@ def main():
     else:
         show_dashboard()
 
-if __name__ == "__main__":
-    main()
+if __name__ == "__main__":  main()
